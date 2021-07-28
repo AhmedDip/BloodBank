@@ -286,7 +286,7 @@ namespace BloodBankManagementSystem.DAL
         {
             userBLL u = new userBLL();
 
-            //Create SQL Connecction to Connect Database
+        
             SqlConnection conn = new SqlConnection(myconnstrng);
 
             //DataTable to hold the data from database temporarily
