@@ -18,10 +18,7 @@ namespace BloodBankManagementSystem.DAL
 
         public bool loginCheck(loginBLL l)
         {
-            //Create a Boolean Variable and SEt its default value to false
             bool isSuccess = false;
-
-            //Connecting DAtabase
             SqlConnection conn = new SqlConnection(myconnstrng);
 
             try
